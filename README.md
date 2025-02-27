@@ -29,9 +29,9 @@ L'apprentissage supervisé est un type d'apprentissage en machine learning , le 
 
 Nous allons prendre pour exemple un algorithme qui lit des radio de poumons afin de savoir si le poumon est atteint de pneumonie ou pas. 
 
-![Poumon sain](picture\radio_poumon_sain.jpg)
+![Poumon sain](radio_poumon_sain.jpg)
 
-![Poumon atteint de pneumonie](picture\paumon_pneumonie.jpeg)
+![Poumon atteint de pneumonie](paumon_pneumonie.jpeg)
 
 Voici deux type de données , le premier avec une etiquette " sain " et le deuxieme avec une etiquette " pneumonie " . Au fur et à mesure que l'algorithme regule ses paramètres en voyant toutes les données qu'on a à lui montrer , il pourra prédire si le poumon que nous venons de lui montrer est atteint de pneumonie ou s'il est sain.
 
