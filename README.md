@@ -29,8 +29,10 @@ L'apprentissage supervisé est un type d'apprentissage en machine learning , le 
 
 Nous allons prendre pour exemple un algorithme qui lit des radio de poumons afin de savoir si le poumon est atteint de pneumonie ou pas. 
 
+Poumon sain
 ![Poumon sain](picture/radio_poumon_sain.jpg)
 
+Poumon atteint de pneumonie
 ![Poumon atteint de pneumonie](picture/paumon_pneumonie.jpeg)
 
 Voici deux type de données , le premier avec une etiquette " sain " et le deuxieme avec une etiquette " pneumonie " . Au fur et à mesure que l'algorithme regule ses paramètres en voyant toutes les données qu'on a à lui montrer , il pourra prédire si le poumon que nous venons de lui montrer est atteint de pneumonie ou s'il est sain.
@@ -39,8 +41,50 @@ Voici deux type de données , le premier avec une etiquette " sain " et le deuxi
 
 L'apprentissage supervisée est à utiliser lorsque l'on a un jeu de données étiquetée . Si le jeu de donnée n'est pas étiquetté , nous utiliserons alors un apprentissage non supervisé.
 
+## La regression :
 
-## La classification supervisée : 
+### Introduction 
+
+La **régression** est une technique d'apprentissage supervisé utilisée pour prédire une valeur **numérique continue** à partir d'un ensemble de données.
+
+### Objectif
+L'objectif d'un modèle de régression est d'apprendre la relation entre une ou plusieurs **variables indépendantes** (features) et une **variable dépendante** (target), afin de faire des prédictions précises.
+
+### Types de Régressions
+
+#### 1️ Régression Linéaire
+- Modèle la relation entre les variables sous forme d'une **droite**.
+- Exemple : prédire le **prix d'une maison** en fonction de sa superficie.
+
+#### 2️ Régression Polynomiale
+- Modèle non linéaire où l'on utilise des **puissances de X**.
+- Utile lorsque les données ne suivent pas une relation linéaire.
+
+#### 3️ Régression Logistique
+- Utilisée pour **la classification**, bien que son nom contienne "régression".
+- Prédit une probabilité avec une sortie binaire (ex: spam ou non spam).
+
+#### 4️ Régressions Régularisées (Ridge, Lasso, ElasticNet)
+- Ajoutent des **pénalités** pour éviter le sur-apprentissage (**overfitting**).
+
+#### 5️ Régression avec Arbres de Décision & Random Forest
+- Utilisent des **arbres de décision** pour capturer des relations complexes.
+
+#### 6️ Régression avec Réseaux de Neurones
+- Approche avancée basée sur des **couches neuronales** pour capturer des patterns non linéaires.
+
+---
+
+### Cas d'Usage
+**Prévisions financières** (ex: prédiction des prix des actions)  
+**Analyse immobilière** (ex: estimation du prix d'une maison)  
+**Météorologie** (ex: prédiction de la température)  
+**Marketing** (ex: estimation du chiffre d'affaires)  
 
 
-### introduction 
+### Conclusion
+La régression est un outil puissant pour **prédire des valeurs continues** en fonction de données d'entrée. Différents modèles existent selon la nature des relations dans les données. 🚀
+
+
+
+
